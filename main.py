@@ -81,7 +81,8 @@ def run_dave():
       egg
     elif 'dave' in command:#
       egg
-      
+    elif 'final' in command:
+        talk('the final countdown')
     else:
         talk("Try again. speak clearly")
 
